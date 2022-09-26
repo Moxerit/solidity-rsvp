@@ -1,13 +1,9 @@
-# Sample Hardhat Project
+# RSVP DAPP for testing and implementing
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Main functions:
+- Create an event
+- Refund users after attending with attendance deposit
+- Claim deposits for absentees (after 7 days)
+- Manually admit single applications or entire groups
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
